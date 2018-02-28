@@ -13,8 +13,12 @@
 
 <body>
     <div class="row">
-        <iframe class="col-md-10" id="xd" src="https://xd.adobe.com/embed/8f6cb62c-3086-4072-9a19-8183436de5ed/" frameborder="0"
-            allowfullscreen></iframe>
+        <h1 id="loading">
+            <i class="fa fa-spinner"></i>
+        </h1>
+        <div class="col-md-10">
+            <iframe id="xd" src="https://xd.adobe.com/embed/8f6cb62c-3086-4072-9a19-8183436de5ed/" frameborder="0" allowfullscreen></iframe>
+        </div>
         <div class="col-md-2" id="tasks">
             <br>
             <h1>Tasks</h1>
@@ -24,7 +28,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../script.js"></script>
-    
+
     <script>
         $.getJSON('./tasks.json', json => showTasks(json));
     </script>

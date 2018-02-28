@@ -13,6 +13,13 @@ function showTasks(json) {
     })
 }
 
+$('#xd').hide()
+
+document.getElementById('xd').onload =  e => {
+    $('#xd').fadeIn();
+    $('#loading').remove()
+};
+
 function finishTask(id) {
     $(`#task-${id}`).addClass('complete');
     $(`#btn-${id}`).addClass('disabled')

@@ -55,3 +55,19 @@
     height:98vh; 
     width: 100%;
 }
+
+#loading {
+    position: absolute;
+    left: 40%;
+    top:45%;
+    -webkit-animation: rotation 2s infinite linear;    
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
