@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+#tasks {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0em 0.5 0.5em 0.5em;
+    width: 100%;
+    height: 98vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.tasks-container {
+    max-height: 98vh;
+}
+
+.task {
+   padding: 1em;
+   margin-top: 1em;
+}
+
+.complete {
+    opacity: 0.3;
+}
+
+.task h1 {
+    font-weight: bold;
+}
+
+.task h2 {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
+.task ol {
+    margin-left: 1em;
+}
+
+#xd { 
+    height:98vh; 
+    width: 100%;
+}
