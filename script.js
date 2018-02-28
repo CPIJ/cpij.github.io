@@ -1,4 +1,4 @@
-$.getJSON("./tasks.json", (json) => {
+function showTasks(json) {
     json.forEach((spec, index) => {
         $('#tasks').append(`
         <div class="task" id=task-${index}>
@@ -11,7 +11,7 @@ $.getJSON("./tasks.json", (json) => {
         </div>
         `)
     })
-})
+}
 
 function finishTask(id) {
     $(`#task-${id}`).addClass('complete');

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User Test</title>
+    <title>Estate Timesheet | User Tests</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -13,7 +13,8 @@
 
 <body>
     <div class="row">
-        <iframe class="col-md-10" id="xd" src="https://xd.adobe.com/embed/8f6cb62c-3086-4072-9a19-8183436de5ed/" frameborder="0" allowfullscreen></iframe>
+        <iframe class="col-md-10" id="xd" src="https://xd.adobe.com/embed/8f6cb62c-3086-4072-9a19-8183436de5ed/" frameborder="0"
+            allowfullscreen></iframe>
         <div class="col-md-2" id="tasks">
             <br>
             <h1>Taken</h1>
@@ -22,7 +23,10 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        $.getJSON('./tasks.json', json => showTasks(json));
+    </script>
 </body>
 
 </html>
