@@ -1,66 +1,12 @@
 [
     {
-        "name": "Task name",
-        "description": "Boek uren zoals je dat normaal ook zou doen.",
+        "name": "Lorem ipsum dolor",
+        "description": "Sit amet, consectetur adipiscing elit. Donec vitae elementum metus.",
         "steps": [
-            "Log in.",
-            "Boek uren zoals je dat normaal ook zou doen.",
-            "Log uit."
-        ]
-    },
-    {
-        "name": "Lorem ipsum",
-        "description": "dolor ipsjdke lalk fo ori orf ojkfjsk",
-        "steps": [
-            "Halaldlf",
-            "kJKJ oo odk odke lke lkf",
-            "Nkkka ofok aoks",
-            "JAksjsfijijf",
-            "Joooo oaksd ;;ll"
-        ]
-    },
-    {
-        "name": "Lorem ipsum",
-        "description": "dolor ipsjdke lalk fo ori orf ojkfjsk",
-        "steps": [
-            "Halaldlf",
-            "kJKJ oo odk odke lke lkf",
-            "Nkkka ofok aoks",
-            "JAksjsfijijf",
-            "Joooo oaksd ;;ll"
-        ]
-    },
-    {
-        "name": "Lorem ipsum",
-        "description": "dolor ipsjdke lalk fo ori orf ojkfjsk",
-        "steps": [
-            "Halaldlf",
-            "kJKJ oo odk odke lke lkf",
-            "Nkkka ofok aoks",
-            "JAksjsfijijf",
-            "Joooo oaksd ;;ll"
-        ]
-    },
-    {
-        "name": "Lorem ipsum",
-        "description": "dolor ipsjdke lalk fo ori orf ojkfjsk",
-        "steps": [
-            "Halaldlf",
-            "kJKJ oo odk odke lke lkf",
-            "Nkkka ofok aoks",
-            "JAksjsfijijf",
-            "Joooo oaksd ;;ll"
-        ]
-    },
-    {
-        "name": "Lorem ipsum",
-        "description": "dolor ipsjdke lalk fo ori orf ojkfjsk",
-        "steps": [
-            "Halaldlf",
-            "kJKJ oo odk odke lke lkf",
-            "Nkkka ofok aoks",
-            "JAksjsfijijf",
-            "Joooo oaksd ;;ll"
+            "Nunc maximus mauris turpis.",
+            "vitae vestibulum odio eleifend non.",
+            "Pellentesque in aliquam ante. Curabitur vitae ipsum a lacus mattis convallis.",
+            "Maecenas non diam erat. Morbi a tortor in massa maximus egestas"
         ]
     }
 ]

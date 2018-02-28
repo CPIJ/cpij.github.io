@@ -2,7 +2,7 @@ function showTasks(json) {
     json.forEach((spec, index) => {
         $('#tasks').append(`
         <div class="task" id=task-${index}>
-            <h1>${spec.name}</h1>
+            <h1>${index + 1}. ${spec.name}</h1>
             <h2>${spec.description}</h2>
             <ol>
                 ${spec.steps.map(step => `<li>${step}</li>`).join('')}
