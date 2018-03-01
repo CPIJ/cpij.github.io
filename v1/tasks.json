@@ -1,12 +1,32 @@
 [
     {
-        "name": "Lorem ipsum dolor",
-        "description": "Sit amet, consectetur adipiscing elit. Donec vitae elementum metus.",
+        "name": "Uren boeken",
+        "description": "Waar zou je heen gaan om je uren te boeken?",
+        "steps": []
+    },
+    {
+        "name": "Uren bekijken",
+        "description": "Naar welke pagina zou je gaan om eerder geboekte uren te bekijken?",
         "steps": [
-            "Nunc maximus mauris turpis.",
-            "vitae vestibulum odio eleifend non.",
-            "Pellentesque in aliquam ante. Curabitur vitae ipsum a lacus mattis convallis.",
-            "Maecenas non diam erat. Morbi a tortor in massa maximus egestas"
+            "Waar zou je uren van vorige week bekijken?",
+            "En de uren van vorige maand?",
+            "Wat als je uren van vorig jaar wilt bekijken?"
+        ]
+    },
+    {
+        "name": "Uren aanpassen",
+        "description": "Je hebt je uren verkeerd ingevuld, hoe zou je deze corrigeren?"
+    },
+    {
+        "name": "Taal aanpassen",
+        "description": "Op welke pagina zou je de taal kunnen passen?",
+        "steps": [
+        ]
+    },
+    {
+        "name": "Andere instellingen",
+        "description": "Wat voor intstellingen kun je nog meer vinden?",
+        "steps": [
         ]
     }
 ]
