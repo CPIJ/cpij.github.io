@@ -6,11 +6,11 @@
     },
     {
         "name": "Uren bekijken",
-        "description": "Naar welke pagina zou je gaan om eerder geboekte uren te bekijken?",
+        "description": "Naar welke pagina zou je gaan om uren te zien die je...",
         "steps": [
-            "Waar zou je uren van vorige week bekijken?",
-            "En de uren van vorige maand?",
-            "Wat als je uren van vorig jaar wilt bekijken?"
+            "Vorige week geboekt hebt",
+            "Vorige maand geboekt hebt",
+            "Vorig jaar geboekt hebt"
         ]
     },
     {

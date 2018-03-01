@@ -1,5 +1,4 @@
 function showTasks(json) {
-    debugger;
     json.forEach((spec, index) => {
         spec.steps = spec.steps || [];
         $('#tasks').append(`
