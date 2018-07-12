@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +14,29 @@
             padding: 0;
             margin: 0;
         }
+
+        .btn {
+            padding: 0.5em 2em;
+            border: none;
+            background-color: steelblue;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            outline: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        button:focus { outline: none; }
+
     </style>
 </head>
+
 <body>
     <div id="estate-digital-assistant"></div>
-    <button id="btn">Hallo</button>
+    <button id="btn" class="btn" type="button"><span>Show assistant</span></button>
 </body>
+
 </html>
