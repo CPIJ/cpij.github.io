@@ -7,28 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="FacebookService.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
     <script src="https://connect.facebook.net/en_US/sdk.js"></script>
 </head>
 
 <body>
     <button id="btn">Continue with Facebook</button>
+    <button id="logout">Logout</button>
 
     <img src="" alt="" id="img">
 
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const service = new FacebookService('289302121936379');
+            console.log(env)
+            const service = new FacebookService();
 
             document.getElementById('btn').addEventListener('click', async () => {
-                const { accessToken, userID } = await service.login();
+                
 
-                const res = await service.api(`/${userID}/picture?height=100&width=100&redirect=false`);
+                const response = await service.login()
+                const accessToken = response.credential.accessToken;
+                const userId = response.additionalUserInfo.profile.id;
+
+                const res = await service.api(`/${userId}/picture?height=100&width=100&redirect=false`);
                 const data = res.data;
 
                 document.getElementById('img').src = data.url;
             });
-        });
+
+            document.getElementById('logout').addEventListener('click', async () => {
+                await 
+                console.log('logged out')
+            })
+        })
     </script>
 </body>
 
